@@ -37,7 +37,7 @@ jobs:
           # See: https://www.loopandlearn.org/main-lnl-patches
 
           # This LoopWorkspace commit: Add xDrip4iOS and GlucoseDirect CGM clients
-          curl https://github.com/loopnlearn/LoopWorkspace/commit/13c626c04f01c9870c15fa9463201645b4267b25.patch | git apply
+          curl https://github.com/loopnlearn/LoopWorkspace/commit/4092277a21fa44a1258b693a5fbcce4d8d9dbd17.patch | git apply
 
           # This LoopWorkspace commit: Merge pull request to add LoopnLearn logo (from MikePlante1)
           # This encompasses many smaller commits

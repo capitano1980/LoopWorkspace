@@ -53,7 +53,7 @@ jobs:
 
           # This LoopWorkspace commit: Merge pull request to add LoopnLearn logo (from MikePlante1)
           # This encompasses many smaller commits
-          #curl https://github.com/loopnlearn/LoopWorkspace/commit/7c1dd02e74508a171128de85741e44b09ccee118.patch | git apply
+          curl https://github.com/loopnlearn/LoopWorkspace/commit/7c1dd02e74508a171128de85741e44b09ccee118.patch | git apply
 
           # These next two patches must be combined together, do not apply one without the other
           # This applies CustomTypeOne LoopPatches to released submodules Loop and LoopKit

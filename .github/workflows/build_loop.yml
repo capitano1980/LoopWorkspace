@@ -37,7 +37,7 @@ jobs:
 
           # Submodule Loop patches:
           # Loop: LoopDataManager: limits the period for Loop cycles to 4.8 minutes
-          curl https://github.com/capitano1980/Loop/commit/dd79f0e74cfb4e8041a28f2d17cb57ee229a535e.patch | git apply -v --directory= Loop
+          curl https://github.com/capitano1980/Loop/commit/dd79f0e74cfb4e8041a28f2d17cb57ee229a535e.patch | git apply -v --directory=Loop
 
           # Submodule LoopKit patches:
           # LoopKit: Filename: customization details

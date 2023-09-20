@@ -41,7 +41,8 @@ jobs:
           future_carbs_4h \
           limit_loop_cycle_time \
           customtypeone_looppatches \
-          2002
+          2002 \
+          algorithm_experiments
 
           # the final customization listed above CANNOT have a continuation character "\"
 

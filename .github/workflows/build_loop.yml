@@ -219,8 +219,7 @@ jobs:
           future_carbs_4h \
           now_line \
           2002 \
-          basal_lock \
-          live_activity
+          basal_lock
 
           echo "Downloading code to support xdrip-client-swift"
           git clone https://github.com/johandegraeve/xdrip-client-swift-1.git xdrip-client-swift
